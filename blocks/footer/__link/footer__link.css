@@ -1,5 +1,8 @@
 .footer__link {
   color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
   text-decoration: none;
   margin-right: 18px;
   transition: all .3s;
@@ -11,5 +14,19 @@
 
 .footer__link:hover {
   opacity: .6;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__link {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 0;
+  }
+
 }
 

@@ -7,3 +7,23 @@
   line-height: 29px;
   font-weight: 400;
 }
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+}
